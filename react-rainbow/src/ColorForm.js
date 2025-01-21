@@ -1,4 +1,6 @@
-function ColorForm(props){
+import React, { useState } from 'react'
+
+export default function ColorForm(props) {
     let [input, setInput] = useState('')
 
     const handleSubmit = (e) => {
